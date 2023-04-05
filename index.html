@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0525e724d2.js" crossorigin="anonymous"></script>
+    <style>
+        
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(254, 97, 207); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fffbbc; 
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <figure class="profile-card__img">
+                <img src="ploy.jpg" alt="...">
+            </figure>
+            <div class="profile-card__desc">
+                <h1>im.p1oy_</h1>
+                <span class="position-job">Frontend Developer・Japanese</span>
+                <span><i class="fa-solid fa-location-dot"></i> Bangkok, Thailand</span>
+                <span>"Believe you can and you’re halfway there"</span>
+            </div>
+            <div class="profile-card__info">
+            </div>
+            <div class="profile-card__social">
+                <a href="https://web.facebook.com/Noname.chan.336/" class="facebook">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/im.p1oy_/" class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/imp1oy" class="github">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+            </div>
+            <iframe src="Audio.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+            </iframe> 
+            <div class="profile-card__actions">
+                <button class="blue">Send Message</button>
+                <button class="orange">Follow Me</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
